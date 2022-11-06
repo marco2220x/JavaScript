@@ -1,5 +1,5 @@
 function abririRegalo(){
-    const image = event.target;
+    const image = event.currentTarget;
     image.src = "images/giphy.gif";
     image.removeEventListener('click',abririRegalo);
 };
