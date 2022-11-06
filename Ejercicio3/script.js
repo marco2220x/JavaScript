@@ -1,10 +1,7 @@
-
-
-const abrirRegalo = () => {
+function abririRegalo(){
     const image = document.querySelector('img');
-    image.src = "images/giphy.gif";
-    image.removeEventListener('click',abrirRegalo);
+    image.src = "./giphy.gif";
+    image.removeEventListener('click',abririRegalo);
 };
-
 const image = document.querySelector('img');
-image.addEventListener('click',abrirRegalo);
+image.addEventListener('click',abririRegalo);
